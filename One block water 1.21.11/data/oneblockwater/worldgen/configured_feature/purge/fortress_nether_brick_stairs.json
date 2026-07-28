@@ -7,6 +7,6 @@
     "target": {
       "Name": "minecraft:nether_brick_stairs"
     },
-    "radius": 12
+    "radius": 24
   }
 }
