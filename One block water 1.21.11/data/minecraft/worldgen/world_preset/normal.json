@@ -8,17 +8,7 @@
                     "type": "minecraft:multi_noise",
                     "preset": "minecraft:overworld"
                 },
-                "settings": "oneblockwater:empty_overworld"
-            }
-        },
-        "minecraft:the_end": {
-            "type": "minecraft:the_end",
-            "generator": {
-                "type": "minecraft:noise",
-                "biome_source": {
-                    "type": "minecraft:the_end"
-                },
-                "settings": "minecraft:end"
+                "settings": "minecraft:overworld"
             }
         },
         "minecraft:the_nether": {
@@ -29,7 +19,17 @@
                     "type": "minecraft:multi_noise",
                     "preset": "minecraft:nether"
                 },
-                "settings": "oneblockwater:empty_nether"
+                "settings": "minecraft:nether"
+            }
+        },
+        "minecraft:the_end": {
+            "type": "minecraft:the_end",
+            "generator": {
+                "type": "minecraft:noise",
+                "biome_source": {
+                    "type": "minecraft:the_end"
+                },
+                "settings": "minecraft:end"
             }
         }
     }

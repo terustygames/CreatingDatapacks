@@ -1,7 +1,10 @@
 {
   "pack": {
-    "description": "Datapack 1 block version 1.21.9 for 1.21.11",
-    "min_format": 88,
-    "max_format": 94.1
+    "pack_format": 94,
+    "description": "One Block Water - пустой оверворлд и ад с биомами и bounding box'ами, энд ванильный (сделано на основе skyvoid empty)",
+    "supported_formats": {
+      "min_inclusive": 88,
+      "max_inclusive": 94
+    }
   }
 }
