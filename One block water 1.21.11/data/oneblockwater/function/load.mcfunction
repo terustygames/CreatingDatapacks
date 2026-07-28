@@ -1,1 +1,0 @@
-tellraw @a {"text":"[One Block Water] Датапак загружен","color":"green"}

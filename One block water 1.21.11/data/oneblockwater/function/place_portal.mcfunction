@@ -1,1 +1,0 @@
-execute in minecraft:overworld run place template oneblockwater:ender_portal 512 80 -2
