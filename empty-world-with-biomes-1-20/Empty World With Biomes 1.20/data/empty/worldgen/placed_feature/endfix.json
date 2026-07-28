@@ -1,0 +1,8 @@
+{
+  "feature": "empty:endfix",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

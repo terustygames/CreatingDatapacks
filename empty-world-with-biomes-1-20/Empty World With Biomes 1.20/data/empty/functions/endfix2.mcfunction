@@ -1,0 +1,3 @@
+execute in minecraft:the_end if entity @e[type=minecraft:end_crystal,x=0,y=64,z=0,distance=..1] run execute in minecraft:the_end run fill -1 0 -1 1 63 1 minecraft:air replace minecraft:obsidian
+execute in minecraft:the_end if entity @e[type=minecraft:end_crystal,x=0,y=64,z=0,distance=..1] run execute in minecraft:the_end run kill @e[type=minecraft:end_crystal,x=0,y=64,z=0,distance=..1]
+execute in minecraft:the_end run forceload remove 0 0 -1 -1
