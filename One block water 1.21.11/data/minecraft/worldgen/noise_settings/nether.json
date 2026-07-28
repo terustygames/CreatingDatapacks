@@ -113,7 +113,7 @@
         "if_true": {
           "type": "minecraft:y_above",
           "anchor": {
-            "absolute": 124
+            "absolute": 48
           },
           "surface_depth_multiplier": 0,
           "add_stone_depth": false
@@ -121,7 +121,7 @@
         "then_run": {
           "type": "minecraft:block",
           "result_state": {
-            "Name": "minecraft:bedrock"
+            "Name": "minecraft:air"
           }
         }
       },
@@ -132,7 +132,7 @@
           "invert": {
             "type": "minecraft:y_above",
             "anchor": {
-              "absolute": 5
+              "absolute": 47
             },
             "surface_depth_multiplier": 0,
             "add_stone_depth": false
@@ -141,14 +141,8 @@
         "then_run": {
           "type": "minecraft:block",
           "result_state": {
-            "Name": "minecraft:bedrock"
+            "Name": "minecraft:air"
           }
-        }
-      },
-      {
-        "type": "minecraft:block",
-        "result_state": {
-          "Name": "minecraft:air"
         }
       }
     ]
