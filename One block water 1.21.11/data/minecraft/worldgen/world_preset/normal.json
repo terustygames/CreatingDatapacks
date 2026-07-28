@@ -8,7 +8,7 @@
                     "type": "minecraft:multi_noise",
                     "preset": "minecraft:overworld"
                 },
-                "settings": "minecraft:overworld"
+                "settings": "oneblockwater:empty_overworld"
             }
         },
         "minecraft:the_nether": {
@@ -19,7 +19,7 @@
                     "type": "minecraft:multi_noise",
                     "preset": "minecraft:nether"
                 },
-                "settings": "minecraft:nether"
+                "settings": "oneblockwater:empty_nether"
             }
         },
         "minecraft:the_end": {
