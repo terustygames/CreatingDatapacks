@@ -7,6 +7,6 @@
     "target": {
       "Name": "minecraft:nether_bricks"
     },
-    "radius": 24
+    "radius": 12
   }
 }

@@ -7,6 +7,6 @@
     "target": {
       "Name": "minecraft:nether_brick_fence"
     },
-    "radius": 24
+    "radius": 12
   }
 }
