@@ -1,0 +1,28 @@
+{
+  "key.categories.spawntracker": "Spawn Tracker",
+  "key.spawntracker.toggle": "Toggle HUD",
+  "key.spawntracker.toggle_phantoms": "Toggle phantom section",
+
+  "hud.spawntracker.title": "Spawn Tracker",
+  "hud.spawntracker.no_sleep": "No sleep: ",
+  "hud.spawntracker.days_suffix": "d",
+  "hud.spawntracker.until_danger": "Until danger: ",
+  "hud.spawntracker.status": "Phantoms: ",
+  "hud.spawntracker.chance": "Chance per attempt: ",
+  "hud.spawntracker.phantoms_near": "Phantoms nearby: ",
+  "hud.spawntracker.light": "Light (block/sky): ",
+  "hud.spawntracker.hostiles": "Hostiles nearby: ",
+  "hud.spawntracker.passive": "Passive nearby: ",
+
+  "hud.spawntracker.reason.can_spawn": "CAN SPAWN",
+  "hud.spawntracker.reason.rested": "you are rested",
+  "hud.spawntracker.reason.bright": "too bright",
+  "hud.spawntracker.reason.low": "below sea level",
+  "hud.spawntracker.reason.roof": "roof above you",
+  "hud.spawntracker.reason.spectator": "spectator mode",
+
+  "msg.spawntracker.enabled": "Spawn Tracker enabled",
+  "msg.spawntracker.disabled": "Spawn Tracker disabled",
+  "msg.spawntracker.phantoms_on": "Phantom section on",
+  "msg.spawntracker.phantoms_off": "Phantom section off"
+}

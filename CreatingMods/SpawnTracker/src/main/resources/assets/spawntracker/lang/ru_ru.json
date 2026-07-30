@@ -1,0 +1,28 @@
+{
+  "key.categories.spawntracker": "Spawn Tracker",
+  "key.spawntracker.toggle": "Показать/скрыть панель",
+  "key.spawntracker.toggle_phantoms": "Показать/скрыть блок фантомов",
+
+  "hud.spawntracker.title": "Spawn Tracker",
+  "hud.spawntracker.no_sleep": "Без сна: ",
+  "hud.spawntracker.days_suffix": " дн.",
+  "hud.spawntracker.until_danger": "До угрозы: ",
+  "hud.spawntracker.status": "Фантомы: ",
+  "hud.spawntracker.chance": "Шанс за попытку: ",
+  "hud.spawntracker.phantoms_near": "Рядом фантомов: ",
+  "hud.spawntracker.light": "Свет (блок/небо): ",
+  "hud.spawntracker.hostiles": "Враждебных рядом: ",
+  "hud.spawntracker.passive": "Мирных рядом: ",
+
+  "hud.spawntracker.reason.can_spawn": "МОГУТ СПАВНИТЬСЯ",
+  "hud.spawntracker.reason.rested": "вы отдохнули",
+  "hud.spawntracker.reason.bright": "слишком светло",
+  "hud.spawntracker.reason.low": "вы ниже уровня моря",
+  "hud.spawntracker.reason.roof": "над вами крыша",
+  "hud.spawntracker.reason.spectator": "режим наблюдателя",
+
+  "msg.spawntracker.enabled": "Spawn Tracker включён",
+  "msg.spawntracker.disabled": "Spawn Tracker выключен",
+  "msg.spawntracker.phantoms_on": "Блок фантомов включён",
+  "msg.spawntracker.phantoms_off": "Блок фантомов выключен"
+}
