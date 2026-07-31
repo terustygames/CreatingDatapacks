@@ -17,7 +17,13 @@
     [],
     [],
     [],
-    []
+    [
+      "oneblockwater:purge/ice_packed_ice",
+      "oneblockwater:purge/ice_blue_ice",
+      "oneblockwater:purge/ice_ice",
+      "oneblockwater:purge/ice_snow_block",
+      "oneblockwater:purge/ice_snow"
+    ]
   ],
   "spawn_costs": {},
   "spawners": {
