@@ -10,7 +10,7 @@
       "tick_delay": 6000
     },
     "sky_color": 8103167,
-    "water_color": 3750089,
+    "water_color": 4020182,
     "water_fog_color": 329011
   },
   "features": [
@@ -38,14 +38,7 @@
       }
     ],
     "axolotls": [],
-    "creature": [
-      {
-        "type": "minecraft:polar_bear",
-        "maxCount": 2,
-        "minCount": 1,
-        "weight": 1
-      }
-    ],
+    "creature": [],
     "misc": [],
     "monster": [
       {
@@ -113,6 +106,12 @@
     ],
     "water_ambient": [
       {
+        "type": "minecraft:cod",
+        "maxCount": 6,
+        "minCount": 3,
+        "weight": 15
+      },
+      {
         "type": "minecraft:salmon",
         "maxCount": 5,
         "minCount": 1,
@@ -124,10 +123,9 @@
         "type": "minecraft:squid",
         "maxCount": 4,
         "minCount": 1,
-        "weight": 1
+        "weight": 3
       }
     ]
   },
-  "temperature": 0.5,
-  "temperature_modifier": "frozen"
+  "temperature": 0.5
 }

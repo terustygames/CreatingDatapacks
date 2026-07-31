@@ -1,17 +1,25 @@
 {
   "carvers": [],
-  "downfall": 0.5,
+  "downfall": 0.9,
   "effects": {
     "fog_color": 12638463,
+    "foliage_color": 6975545,
+    "grass_color_modifier": "swamp",
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
-    "sky_color": 8103167,
-    "water_color": 3750089,
-    "water_fog_color": 329011
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "minecraft:music.overworld.swamp"
+    },
+    "sky_color": 7907327,
+    "water_color": 6388580,
+    "water_fog_color": 2302743
   },
   "features": [
     [],
@@ -40,10 +48,34 @@
     "axolotls": [],
     "creature": [
       {
-        "type": "minecraft:polar_bear",
-        "maxCount": 2,
-        "minCount": 1,
-        "weight": 1
+        "type": "minecraft:sheep",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 12
+      },
+      {
+        "type": "minecraft:pig",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:chicken",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:cow",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 8
+      },
+      {
+        "type": "minecraft:frog",
+        "maxCount": 5,
+        "minCount": 2,
+        "weight": 10
       }
     ],
     "misc": [],
@@ -97,10 +129,10 @@
         "weight": 5
       },
       {
-        "type": "minecraft:drowned",
+        "type": "minecraft:slime",
         "maxCount": 1,
         "minCount": 1,
-        "weight": 5
+        "weight": 1
       }
     ],
     "underground_water_creature": [
@@ -111,23 +143,8 @@
         "weight": 10
       }
     ],
-    "water_ambient": [
-      {
-        "type": "minecraft:salmon",
-        "maxCount": 5,
-        "minCount": 1,
-        "weight": 15
-      }
-    ],
-    "water_creature": [
-      {
-        "type": "minecraft:squid",
-        "maxCount": 4,
-        "minCount": 1,
-        "weight": 1
-      }
-    ]
+    "water_ambient": [],
+    "water_creature": []
   },
-  "temperature": 0.5,
-  "temperature_modifier": "frozen"
+  "temperature": 0.8
 }

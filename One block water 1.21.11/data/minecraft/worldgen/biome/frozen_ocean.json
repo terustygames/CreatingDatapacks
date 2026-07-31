@@ -1,12 +1,18 @@
 {
-  "has_precipitation": true,
-  "temperature": 0.0,
-  "temperature_modifier": "frozen",
+  "carvers": [],
   "downfall": 0.5,
   "effects": {
-    "water_color": "#3938c9"
+    "fog_color": 12638463,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "sky_color": 8364543,
+    "water_color": 3750089,
+    "water_fog_color": 329011
   },
-  "carvers": [],
   "features": [
     [],
     [],
@@ -18,14 +24,9 @@
     [],
     [],
     [],
-    [
-      "oneblockwater:purge/ice_packed_ice",
-      "oneblockwater:purge/ice_blue_ice",
-      "oneblockwater:purge/ice_ice",
-      "oneblockwater:purge/ice_snow_block",
-      "oneblockwater:purge/ice_snow"
-    ]
+    []
   ],
+  "has_precipitation": true,
   "spawn_costs": {},
   "spawners": {
     "ambient": [
@@ -37,7 +38,14 @@
       }
     ],
     "axolotls": [],
-    "creature": [],
+    "creature": [
+      {
+        "type": "minecraft:polar_bear",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 1
+      }
+    ],
     "misc": [],
     "monster": [
       {
@@ -53,6 +61,12 @@
         "weight": 95
       },
       {
+        "type": "minecraft:zombie_villager",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 5
+      },
+      {
         "type": "minecraft:skeleton",
         "maxCount": 4,
         "minCount": 4,
@@ -65,10 +79,22 @@
         "weight": 100
       },
       {
+        "type": "minecraft:slime",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
         "type": "minecraft:enderman",
         "maxCount": 4,
         "minCount": 1,
         "weight": 10
+      },
+      {
+        "type": "minecraft:witch",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 5
       },
       {
         "type": "minecraft:drowned",
@@ -77,7 +103,14 @@
         "weight": 5
       }
     ],
-    "underground_water_creature": [],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "maxCount": 6,
+        "minCount": 4,
+        "weight": 10
+      }
+    ],
     "water_ambient": [
       {
         "type": "minecraft:salmon",
@@ -94,5 +127,7 @@
         "weight": 1
       }
     ]
-  }
+  },
+  "temperature": 0.0,
+  "temperature_modifier": "frozen"
 }
