@@ -1,13 +1,13 @@
 {
-  "feature": "oneblockwater:purge/ice_ice",
+  "feature": "oneblockwater:purge/ice_snow",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 128
+      "count": 256
     },
     {
       "type": "minecraft:count",
-      "count": 24
+      "count": 32
     },
     {
       "type": "minecraft:in_square"
@@ -20,7 +20,7 @@
           "absolute": -16
         },
         "max_inclusive": {
-          "absolute": 128
+          "absolute": 16
         }
       }
     },

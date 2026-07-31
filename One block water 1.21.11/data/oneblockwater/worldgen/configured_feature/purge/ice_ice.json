@@ -7,6 +7,6 @@
     "target": {
       "Name": "minecraft:ice"
     },
-    "radius": 12
+    "radius": 8
   }
 }
